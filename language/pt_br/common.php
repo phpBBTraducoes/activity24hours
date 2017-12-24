@@ -6,7 +6,7 @@
 * @package - Activity 24 hours
 * @copyright (c) 2015 RMcGirr83
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.4] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.5] (https://github.com/phpBBTraducoes)
 */
 
 if (!defined('IN_PHPBB'))
@@ -34,18 +34,20 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'USERS_24HOUR_TOTAL'	=> array(
-		1 => '%d usuário',
-		2 => '%d usuários',
-	),
+	'USERS_24HOUR_TOTAL'	=>  '%d registrado,',
+	'HIDDEN_24HOUR_TOTAL'	=> ' %d oculto ',
 	'GUEST_ONLINE_24'		=> array(
 		1 => ' e %d visitante',
 		2 => ' e %d visitantes',
 	),
-	'LAST_24_HOURS'	=> 'Ativos nas últimas 24 horas',
+	'LAST_24_HOURS'	=> ' ativos nas últimas 24 horas',
 	'24HOUR_TOPICS'			=> 'Novos tópicos %d',
 	'24HOUR_POSTS'			=> 'Novos posts %d',
 	'24HOUR_USERS'			=> 'Novos usuários %d',
-	
-	'TWENTYFOURHOUR_STATS'			=> 'Atividade nas últimas 24 horas',
+
+	'TWENTYFOURHOUR_STATS'	=> 'Atividade nas últimas 24 horas',
+	'TOTAL_24HOUR_USERS'	=> array(
+		1 => 'No total havia %d usuário :: ',
+		2 => 'No total havia %d usuários :: ',
+	),
 ));
